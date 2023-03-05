@@ -1,0 +1,44 @@
+body {
+    font-family: "Calibri Light";
+}
+header {
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+    color: aliceblue;
+}
+section {
+    display: flex;
+}
+
+nav {
+    flex: 1;
+    background: dimgray;
+    padding: 20px;
+}
+
+article {
+    flex:2;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+}
+
+footer {
+    background-color: gray;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
