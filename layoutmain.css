@@ -1,11 +1,28 @@
 body {
     font-family: "Calibri Light";
+
 }
+
+.banner {
+    background-image: url('https://img.freepik.com/darmowe-zdjecie/rozmieszczenie-elementow-kinowych-na-czarnym-tle-z-rama-filmu_23-2148457843.jpg?w=996&t=st=1681763798~exp=1681764398~hmac=0f38a0fd6f1d3d10b4d1bd32b9cf6aea13f87a0d31712eaf470437a12f806504');
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+
+
+
 header {
-    background-color: gray;
+
     padding: 20px;
     text-align: center;
-    font-size: x-large;
+    font-family: 'Palatino Linotype';
+    font-size: 60px;
     color: aliceblue;
 }
 section {
@@ -14,26 +31,54 @@ section {
 
 nav {
     flex: 1;
-    background: dimgray;
+    background: #966969;
+    font-family: 'Palatino Linotype';
+    font-size: 20px;
     padding: 20px;
 }
 
-article {
+.article {
     flex:2;
     padding: 20px;
+    font-family: 'Palatino Linotype';
+    font-size: 20px;
+    line-height: 90%;
 }
+
+.article > h4 {
+    color: #966969;
+    font-family: 'Palatino Linotype';
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+
+}
+
 
 nav ul {
     list-style: none;
     padding: 20px;
 }
 
-footer {
-    background-color: gray;
+.footer {
+    background-color: #302c2c;
     padding: 10px;
-    color: aliceblue;
-    text-align: center;
+
 }
+
+.footer > p {
+    color: white;
+    font-family: 'Palatino Linotype';
+    text-align: center;
+    padding: 10px;
+  }
+
+@media (max-width: 600px) {
+      .banner {
+        align-items: flex-start;
+        height: 400px;
+      }
+    }
 
 @media (max-width: 600px) {
     section {
