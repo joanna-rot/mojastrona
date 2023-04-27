@@ -94,6 +94,14 @@ nav ul {
     padding: 20px;
 }
 
+.zegar {
+    font-family: "Calibri Light";
+    font-size: 25px;
+    font-weight: bold;
+    color: #966969;
+
+}
+
 .footer {
     background-color: #302c2c;
     padding: 10px;
